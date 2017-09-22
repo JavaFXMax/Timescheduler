@@ -1,0 +1,5 @@
+@include('includes.head')
+@include('includes.top_nav')
+@include('includes.side_bars')
+  @yield('content')
+@include('includes.footer')
